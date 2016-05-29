@@ -5,7 +5,7 @@ html {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: : #1d1d1d;
+  background-color: #1e1e1e;
 }
 a {
   color: inherit;
@@ -98,7 +98,7 @@ h1.headline {
 section#interests {
   width: 100%;
   height: 100%;
-  background-color: #1d1d1d;
+  background-color: #1e1e1e;
 }
 div.interestsholder {
   text-align: center;
@@ -125,8 +125,4 @@ span.interest:hover {
   -ms-filter: blur(5px);
   filter: blur(5px);
   opacity: 0.5;
-}
-section#projects {
-  width: 100%;
-  height: 100%;
 }
