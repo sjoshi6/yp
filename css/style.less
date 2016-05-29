@@ -1,20 +1,51 @@
-
-
 /* --- Home Page --- */
 
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     height: 100%;
+    background-color:: #1d1d1d;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+footer {
+    color: white;
+}
+
+button.menu {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 24px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color: white;
+    transition: 0.2s ease-out;
+}
+
+button.menu:hover {
+    color: #567181;
+    transform: scale(1.5);
+    font-weight: 400;
 }
 
 ul.menu {
-    
     margin: 0;
     padding: 20px;
     li {
         display: inline;
         margin-right: 20px;
+    }
+    ;
+    li.item:hover {
+        color: #567181;
     }
 }
 
@@ -39,12 +70,12 @@ li.logo {
     padding-bottom: 5px;
     span.heavy {
         font-weight: 800;
-    };
-    
+    }
+    ;
     span.light {
         font-weight: 100;
-
-    };    
+    }
+    ;
 }
 
 footer {
@@ -52,19 +83,75 @@ footer {
     position: fixed;
     width: 100%;
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-    
     ul {
         padding-right: 20px;
         li {
             display: inline;
             float: right;
-            font-size: 24px;
+            font-size: 40px;
             padding-bottom: 20px;
+            transition: 0.2s ease-out;
+        }
+        ;
+        li:hover {
+            color: #567181;
+            transform: scale(2);
         }
     }
 }
 
+h1.headline {
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+}
 
+// -------- Interests css ------------- //
+section#interests {
+    width: 100%;
+    height: 100%;
+    background-color: #1d1d1d;
+}
+
+div.interestsholder {
+    text-align: center;
+    margin-top: 80px;
+}
+
+span.interest {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+    text-align: center;
+    p {
+        margin: 0;
+        padding-top: 125px;
+        font-size: 50px;
+    }
+    ;
+    background-color: white;
+    border-radius: 20px;
+}
+
+span.interest:hover {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    opacity: 0.5;
+}
+
+// ---- Projects css ----------- //
+
+section#projects {
+    width: 100%;
+    height: 100%;
+}
 
 
 

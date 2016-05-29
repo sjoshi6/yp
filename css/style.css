@@ -5,6 +5,31 @@ html {
   margin: 0;
   padding: 0;
   height: 100%;
+  background-color: : #1d1d1d;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+footer {
+  color: white;
+}
+button.menu {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 24px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  color: white;
+  transition: 0.2s ease-out;
+}
+button.menu:hover {
+  color: #567181;
+  transform: scale(1.5);
+  font-weight: 400;
 }
 ul.menu {
   margin: 0;
@@ -13,6 +38,9 @@ ul.menu {
 ul.menu li {
   display: inline;
   margin-right: 20px;
+}
+ul.menu li.item:hover {
+  color: #567181;
 }
 div.frontholder {
   margin: 0;
@@ -51,6 +79,54 @@ footer ul {
 footer ul li {
   display: inline;
   float: right;
-  font-size: 24px;
+  font-size: 40px;
   padding-bottom: 20px;
+  transition: 0.2s ease-out;
+}
+footer ul li:hover {
+  color: #567181;
+  transform: scale(2);
+}
+h1.headline {
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+}
+section#interests {
+  width: 100%;
+  height: 100%;
+  background-color: #1d1d1d;
+}
+div.interestsholder {
+  text-align: center;
+  margin-top: 80px;
+}
+span.interest {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  margin-right: 50px;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+}
+span.interest p {
+  margin: 0;
+  padding-top: 125px;
+  font-size: 50px;
+}
+span.interest:hover {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  opacity: 0.5;
+}
+section#projects {
+  width: 100%;
+  height: 100%;
 }

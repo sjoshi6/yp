@@ -6,22 +6,35 @@
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/font-awesome.min.css"/>
         <link rel="stylesheet" href="css/animate.css"/>
+        <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
     </head>
     <body>
        <div class="frontholder">
             <ul class="menu">
-                <li> Projects </li>
-                <li> Interest </li>
+                <li class="item"> <button class="menu" onclick="scrollToSection(projects)">Projects</button></li>
+                <li class="item"> <button class="menu" onclick="scrollToSection(interests)">Interests</button></li>
                 <li class="logo animated swing">
                     <span class="light"> Pendse </span>
                     <span class="heavy"> YASH </span>
                 </li>
-            </ul>
-            <footer>
-                <ul>
-                    <li> <i class="fa fa-facebook" aria-hidden="true"></i> </li>
-                </ul>
-            </footer>                        
+            </ul>                      
        </div>
+       <section id="interests" class="item">
+           <h1 class="headline"> Interests </h1>
+           <div class="interestsholder">
+               <span class="interest"> <p><i class="fa fa-camera" aria-hidden="true"></i></p> </span> 
+               <span class="interest"> <p><i class="fa fa-music" aria-hidden="true"></i></p> </span>
+               <span class="interest"> <p><i class="fa fa-paint-brush" aria-hidden="true"></i></p> </span>
+           </div>
+       </section>
+      <section id="projects" class="item">
+          <h1 class="headline"> Projects </h1>
+       </section>
+     <footer>
+        <ul>
+            <li> <a href="https://www.facebook.com/yash.pendse"><i class="fa fa-facebook animated infinite wobble" aria-hidden="true" style="color:#3b5998"></i></a></li>
+        </ul>
+    </footer>  
     </body>
 </html>
